@@ -1,0 +1,23 @@
+.overall {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.float-left {
+    width: 100%;
+    float: left;
+}
+
+.box {
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    /*通过设置宽：百分数 高：0 下内边距：百分数 可以搭建一个自适应的正方形*/
+    /*Tips: 上下边距的百分比数值是以父元素宽度作为参照的*/
+    background-color: #ffa600;
+    margin-top: 6.25%;
+    margin-left: 6.25%;
+    border-radius: 10px;
+    float: left;
+    /*使float出现想要的效果，还可以在.float-left{display:flex;float:left}*/
+}
